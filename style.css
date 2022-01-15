@@ -1,27 +1,32 @@
-*{
+* {
     margin: 9%;
     box-sizing: border-box;
 }
-body{ 
+
+body {
     background-color: gray;
-    border-radius: 8px;
+    border-radius: 20px;
     text-align: center;
     font-size: 20px;
-    border: solid black;
+    border: solid black 10px;
 }
-.resultado{
+
+#resultado {
     font-size: 170px;
 }
-.add{
+
+.add {
     font-size: 25px;
     text-align: right;
     border-radius: 5px;
 }
-.dim{
+
+.dim {
     font-size: 25px;
     text-align: left;
     border-radius: 5px;
 }
-.titulo{
+
+.titulo {
     font-size: 80px;
 }

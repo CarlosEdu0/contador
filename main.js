@@ -1,7 +1,18 @@
-function mais(){
-    console.log("aumentar...")
+let numero = 0
+
+function mais() {
+    numero++
+    resultadoNaTela()
 }
 
-function menos(){
-    console.log("diminuir...")
+function menos() {
+    numero--
+    resultadoNaTela()
 }
+
+function resultadoNaTela() {
+    const p = document.getElementById("resultado")
+    p.innerText = numero
+}
+
+resultadoNaTela()
