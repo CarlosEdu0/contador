@@ -15,4 +15,9 @@ function resultadoNaTela() {
     p.innerText = numero
 }
 
+function zerar() {
+    numero = 0
+    resultadoNaTela()
+}
+
 resultadoNaTela()
